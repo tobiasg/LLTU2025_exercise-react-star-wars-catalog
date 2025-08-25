@@ -1,0 +1,7 @@
+#character-list header h2 {
+  text-align: center;
+}
+
+#character-list .characters {
+  padding-top: 1rem;
+}
