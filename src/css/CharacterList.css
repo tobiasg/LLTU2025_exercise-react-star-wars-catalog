@@ -1,7 +1,9 @@
-#character-list header h2 {
-  text-align: center;
+#character-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-#character-list .characters {
-  padding-top: 1rem;
+#character-list header h2 {
+  text-align: center;
 }

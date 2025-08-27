@@ -1,8 +1,18 @@
 import type { ReactElement } from "react";
 
-export const Loader = (): ReactElement => {
+interface ILoaderProps {
+  small?: true;
+}
+
+export const Loader = ({ small }: ILoaderProps): ReactElement => {
+  const classes: string[] = ["loader-wrapper"];
+
+  if (small) {
+    classes.push("small");
+  }
+
   return (
-    <div className="loader-wrapper">
+    <div className={classes.join(" ")}>
       <div className="loader" />
     </div>
   );
