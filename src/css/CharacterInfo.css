@@ -1,0 +1,13 @@
+#character-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#character-info .info-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  color: var(--main-color);
+  flex: 1;
+  padding: 1rem;
+}
